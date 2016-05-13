@@ -101,7 +101,3 @@ std::string Customer::string rentalStatement() const
     return result;
 	}
 
-// customer rental statement
-std::string Customer::statement() const {
-	rentalStatement();
-}
