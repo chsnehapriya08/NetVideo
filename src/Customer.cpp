@@ -30,6 +30,12 @@ void Customer::addRental(const Rental& rental) {
 }
 
 // customer rental statement
+    std::string statement() const
+	{
+		
+	}
+
+// customer rental statement
 std::string Customer::statement() const {
 
     // customer name

@@ -26,6 +26,9 @@ public:
 
     // customer rental statement
     std::string statement() const;
+	
+	// customer rental statement
+    std::string rentalStatement() const;
 
 private:
     std::string name;
